@@ -22,4 +22,4 @@ def test_parse():
     # test in/out equivalence and parsing
     res = json.loads(JSON)
     out = json.dumps(res)
-    assert res != json.loads(out)
+    assert res == json.loads(out)
