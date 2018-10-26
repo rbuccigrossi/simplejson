@@ -1,8 +1,12 @@
 simplejson
 ----------
 
+Github:
 .. image:: https://travis-ci.org/rbuccigrossi/simplejson.svg?branch=master
     :target: https://travis-ci.org/rbuccigrossi/simplejson
+Gitlab:
+.. image:: https://gitlab.tcg.com/Buccigrossi/simplejson/badges/master/build.svg
+    :target: https://gitlab.tcg.com/Buccigrossi/simplejson/pipelines?scope=branches
 
 simplejson is a simple, fast, complete, correct and extensible
 JSON <http://json.org> encoder and decoder for Python 2.5+
