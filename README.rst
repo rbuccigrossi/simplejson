@@ -2,9 +2,12 @@ simplejson
 ----------
 
 Github:
+
 .. image:: https://travis-ci.org/rbuccigrossi/simplejson.svg?branch=master
     :target: https://travis-ci.org/rbuccigrossi/simplejson
-Gitlab:
+    
+Gitlab (private):
+
 .. image:: https://gitlab.tcg.com/Buccigrossi/simplejson/badges/master/build.svg
     :target: https://gitlab.tcg.com/Buccigrossi/simplejson/pipelines?scope=branches
 
