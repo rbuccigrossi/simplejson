@@ -1,0 +1,18 @@
+python_2_test:
+  image: python:2
+  before_script:
+    - pip install -q --upgrade pip
+    - pip install -q pytest
+    - python setup.py
+  script:
+    pytest simplejson
+
+
+python_3_test:
+  image: python:3
+  before_script:
+    - pip install -q --upgrade pip
+    - pip install -q pytest
+    - python setup.py
+  script:
+    pytest simplejson
