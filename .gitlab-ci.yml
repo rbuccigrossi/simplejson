@@ -3,7 +3,7 @@ python_2_test:
   before_script:
     - pip install -q --upgrade pip
     - pip install -q pytest
-    - python setup.py
+    - python setup.py install
   script:
     pytest simplejson
 
@@ -13,6 +13,6 @@ python_3_test:
   before_script:
     - pip install -q --upgrade pip
     - pip install -q pytest
-    - python setup.py
+    - python setup.py install
   script:
     pytest simplejson
